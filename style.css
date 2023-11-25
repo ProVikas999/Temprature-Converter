@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 10%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(moscow-is-burning-in-ruins-explosions-planes-and-missiles-are-flying-in-the-sky-throughout-moscow-97228848.png);
+    background-size: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="number"],
+  select,
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #8a7777;
+    border-radius: 40px;
+    transition: all 0.3s ease-out;
+  }
+  
+  input[type="number"]:focus,
+  select:focus,
+  button:focus {
+    outline: none;
+    border-color: #555;
+  }
+  
+  button {
+    background-color: yellowgreen;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: gold;
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px dotted #ccc;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #result:hover {
+    background-color: #110f0f;
+    color: wheat;
+    transition: all 0.3s ease-out;
+  }
+  
